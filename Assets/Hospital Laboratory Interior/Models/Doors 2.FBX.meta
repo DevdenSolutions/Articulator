@@ -1,52 +1,121 @@
 fileFormatVersion: 2
 guid: a8495af0c16ec0042a03f9449960b334
-timeCreated: 1453911984
-licenseType: Store
 ModelImporter:
-  serializedVersion: 19
-  fileIDToRecycleName:
-    100000: Door 1
-    100002: door 2
-    100004: door frame
-    100006: //RootNode
-    100008: Poster
-    400000: Door 1
-    400002: door 2
-    400004: door frame
-    400006: //RootNode
-    400008: Poster
-    2300000: Door 1
-    2300002: door 2
-    2300004: door frame
-    2300006: Poster
-    3300000: Door 1
-    3300002: door 2
-    3300004: door frame
-    3300006: Poster
-    4300000: door frame
-    4300002: Poster
-    4300004: door 2
-    4300006: Door 1
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Door 1
+  - first:
+      1: 100002
+    second: door 2
+  - first:
+      1: 100004
+    second: door frame
+  - first:
+      1: 100006
+    second: //RootNode
+  - first:
+      1: 100008
+    second: Poster
+  - first:
+      4: 400000
+    second: Door 1
+  - first:
+      4: 400002
+    second: door 2
+  - first:
+      4: 400004
+    second: door frame
+  - first:
+      4: 400006
+    second: //RootNode
+  - first:
+      4: 400008
+    second: Poster
+  - first:
+      23: 2300000
+    second: Door 1
+  - first:
+      23: 2300002
+    second: door 2
+  - first:
+      23: 2300004
+    second: door frame
+  - first:
+      23: 2300006
+    second: Poster
+  - first:
+      33: 3300000
+    second: Door 1
+  - first:
+      33: 3300002
+    second: door 2
+  - first:
+      33: 3300004
+    second: door frame
+  - first:
+      33: 3300006
+    second: Poster
+  - first:
+      43: 4300000
+    second: door frame
+  - first:
+      43: 4300002
+    second: Poster
+  - first:
+      43: 4300004
+    second: door 2
+  - first:
+      43: 4300006
+    second: Door 1
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #80
+    second: {fileID: 2100000, guid: 3d6bfc6b8f925ee4ebcb8564e829f954, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door glass
+    second: {fileID: 2100000, guid: f534233537de74348b4715d57304d54b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door material
+    second: {fileID: 2100000, guid: 564da4cded4793744aa7fed30406476b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metallic door
+    second: {fileID: 2100000, guid: 1100fe49361e75446a4fd676eeadfe25, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    resampleRotations: 1
+    resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
@@ -54,13 +123,24 @@ ModelImporter:
     globalScale: 1.4
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 1
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -70,9 +150,14 @@ ModelImporter:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -82,11 +167,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1.4
     rootMotionBoneName: 
     hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
   humanoidOversampling: 1
+  avatarSetup: 0
   additionalBone: 0
   userData: 
   assetBundleName: 
