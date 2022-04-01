@@ -16,19 +16,8 @@ public class VideoChanger : MonoBehaviour
 
     public void PlaySelectedVideo(int ID)
     {
-        switch (ID)
-        {
-            case 0:
-                MainVideoPlayer.clip = AllVideoClip[0];
-                break;
 
-            case 1:
-                MainVideoPlayer.clip = AllVideoClip[1];
-                break;
-
-            
-        }
-
+        MainVideoPlayer.clip = AllVideoClip[ID];
     }
 
 
