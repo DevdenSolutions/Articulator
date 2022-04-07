@@ -5,7 +5,7 @@ using UnityEngine.Events;
 public class RotateObjectInZOnDrag : MonoBehaviour
 {
     public float dragSpeed = 1f;
-    Vector3 lastMousePos;
+    public Vector3 lastMousePos;
 
     public bool rotateInX;
     public bool rotateInY;

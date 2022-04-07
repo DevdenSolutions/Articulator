@@ -7,6 +7,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 using UnityEngine.Video;
+using Lean.Gui;
 
 public class SlideManager : MonoBehaviour
 {
@@ -25,6 +26,7 @@ public class SlideManager : MonoBehaviour
     public Transform DropDownListParent;
     public Color selectItemInListColor;
     public Color unSelectItemInListColor;
+    public LeanEvent[] ResetLeanToggles;
     private void OnEnable()
     {
         current = 0;
@@ -196,7 +198,9 @@ public class SlideManager : MonoBehaviour
 
     public void ResetSlide()
     {
-        resetEvents[current].Invoke();
+        //resetEvents[current].Invoke();
+        ResetLeanToggles[current].BeginAllTransitions();
+        
     }
 
     public void ChangeColorOfCurrentItemInList()
